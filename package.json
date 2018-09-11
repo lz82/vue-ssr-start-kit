@@ -1,0 +1,69 @@
+{
+  "name": "vue-ssr-start-kit",
+  "version": "1.0.0",
+  "description": "a vue ssr demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lz82/vue-ssr-start-kit.git"
+  },
+  "keywords": [
+    "vue",
+    "ssr"
+  ],
+  "author": "liuzhuang (70458055@qq.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lz82/vue-ssr-start-kit/issues"
+  },
+  "homepage": "https://github.com/lz82/vue-ssr-start-kit#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^9.0.0",
+    "babel-loader": "^8.0.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "cross-env": "^5.2.0",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.1.0",
+    "eslint": "^5.5.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.0",
+    "eslint-plugin-html": "^4.0.5",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "husky": "^0.14.3",
+    "less": "^3.8.1",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.4.2",
+    "nodemon": "^1.18.4",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^3.0.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "vue-loader": "^15.4.2",
+    "vue-server-renderer": "^2.5.17",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.18.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "koa-router": "^7.4.0",
+    "koa2": "^2.0.0-alpha.7",
+    "vue": "^2.5.17"
+  }
+}
